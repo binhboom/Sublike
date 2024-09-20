@@ -1,0 +1,834 @@
+[03-Aug-2024 13:44:19 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/subsie15/public_html/vendor/composer/platform_check.php on line 24
+[03-Aug-2024 13:45:06 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/subsie15/public_html/vendor/composer/platform_check.php on line 24
+[03-Aug-2024 13:45:15 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/subsie15/public_html/vendor/composer/platform_check.php on line 24
+[03-Aug-2024 13:45:47 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/subsie15/public_html/vendor/composer/platform_check.php on line 24
+[03-Aug-2024 13:45:58 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/subsie15/public_html/vendor/composer/platform_check.php on line 24
+[03-Aug-2024 13:46:16 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/subsie15/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 18:39:10 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ErrorException: include(/home/tcklikesubnet/public_html/vendor/composer/../symfony/http-foundation/Response.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#1 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#2 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#3 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#4 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(817): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(797): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(696): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#10 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#12 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Collections/Traits/EnumeratesValues.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ErrorException: include(/home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#1 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#2 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#3 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(904): ReflectionClass->__construct('Illuminate\\Foun...')
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build('Illuminate\\Foun...')
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Foun...', Array, false)
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('Illuminate\\Foun...', Array, false)
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(900): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#10 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build(Object(Closure))
+#11 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#12 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(723): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#13 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1011): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#14 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(289): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#15 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#16 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#17 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#19 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ErrorException: include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#1 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#2 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#3 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(904): ReflectionClass->__construct('Illuminate\\Foun...')
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build('Illuminate\\Foun...')
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Foun...', Array, false)
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('Illuminate\\Foun...', Array, false)
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(900): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#10 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build(Object(Closure))
+#11 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#12 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(723): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#13 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1011): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#14 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(289): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#15 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#16 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#17 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#19 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ErrorException: include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Http/JsonResponse.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#1 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#2 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#3 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#4 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(956): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Http...')
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(695): Illuminate\Foundation\Exceptions\Handler->prepareJsonResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#11 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Collections/Traits/EnumeratesValues.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ErrorException: include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Http/JsonResponse.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#1 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#2 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#3 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#4 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(956): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Http...')
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(695): Illuminate\Foundation\Exceptions\Handler->prepareJsonResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#11 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ErrorException: include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Http/JsonResponse.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#1 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#2 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#3 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#4 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(956): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Http...')
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(695): Illuminate\Foundation\Exceptions\Handler->prepareJsonResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#11 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Foundation/Http/Kernel.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ErrorException: include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Http/JsonResponse.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#1 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#2 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#3 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#4 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(956): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Http...')
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(695): Illuminate\Foundation\Exceptions\Handler->prepareJsonResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#11 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Trait "Illuminate\Support\Traits\EnumeratesValues" not found in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 21
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/symfony/http-foundation/AcceptHeader.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../nesbot/carbon/src/Carbon/CarbonTimeZone.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Foundation/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../symfony/http-foundation/AcceptHeader.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../nesbot/carbon/src/Carbon/CarbonTimeZone.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/BindingResolutionException.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/symfony/http-foundation/FileBag.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/BindingResolutionException.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../nesbot/carbon/src/Carbon/CarbonInterval.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../symfony/http-foundation/FileBag.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/BindingResolutionException.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/BindingResolutionException.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../nesbot/carbon/src/Carbon/CarbonInterval.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/symfony/http-foundation/HeaderBag.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Illuminate\Contracts\Container\BindingResolutionException" not found in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:906
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build('Illuminate\\Foun...')
+#1 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Foun...', Array, false)
+#2 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('Illuminate\\Foun...', Array, false)
+#3 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(900): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build(Object(Closure))
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(723): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1011): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1446): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(497): Illuminate\Container\Container->offsetGet('Illuminate\\Cont...')
+#10 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->reportException(Object(ValueError))
+#11 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1168): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home/tcklikesubnet/public_html/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#13 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 906
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Illuminate\Contracts\Container\BindingResolutionException" not found in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:906
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build('Illuminate\\Foun...')
+#1 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Foun...', Array, false)
+#2 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('Illuminate\\Foun...', Array, false)
+#3 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(900): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build(Object(Closure))
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(723): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1011): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1166): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home/tcklikesubnet/public_html/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#10 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 906
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Could not check compatibility between Carbon\Traits\Date::getTimezone(): Carbon\CarbonTimeZone and DateTime::getTimezone(): DateTimeZone|false, because class Carbon\CarbonTimeZone is not available in /home/tcklikesubnet/public_html/vendor/nesbot/carbon/src/Carbon/Traits/Date.php on line 950
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Fatal error:  During class fetch: Uncaught ErrorException: include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Database/Concerns/BuildsQueries.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#1 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#2 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#3 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#4 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(31): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Data...')
+#5 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#6 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(329): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Data...')
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1581): Illuminate\Database\Connection->query()
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1500): Illuminate\Database\Eloquent\Model->newBaseQueryBuilder()
+#10 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1536): Illuminate\Database\Eloquent\Model->newModelQuery()
+#11 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1489): Illuminate\Database\Eloquent\Model->newQueryWithoutScopes()
+#12 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2339): Illuminate\Database\Eloquent\Model->newQuery()
+#13 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2351): Illuminate\Database\Eloquent\Model->__call('where', Array)
+#14 /home/tcklikesubnet/public_html/app/Helpers.php(26): Illuminate\Database\Eloquent\Model::__callStatic('where', Array)
+#15 /home/tcklikesubnet/public_html/app/Http/Controllers/CronJob/PriceServiceController.php(149): site('is_domain')
+#16 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App\Http\Controllers\CronJob\PriceServiceController->updatePriceService(Object(Illuminate\Http\Request))
+#17 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(260): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\CronJob\PriceServiceController), 'updatePriceServ...')
+#18 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(206): Illuminate\Routing\Route->runController()
+#19 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(806): Illuminate\Routing\Route->run()
+#20 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#21 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#22 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#23 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#24 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(805): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#25 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(784): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#26 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(748): Illuminate\Routing\Router->runRoute(Object(Illuminate\Http\Request), Object(Illuminate\Routing\Route))
+#27 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#28 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#29 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#30 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#31 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#32 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull->handle(Object(Illuminate\Http\Request), Object(Closure))
+#33 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#34 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(50): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#35 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\Foundation\Http\Middleware\TrimStrings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#36 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#37 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#38 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(103): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#39 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance->handle(Object(Illuminate\Http\Request), Object(Closure))
+#40 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(62): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#41 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\Http\Middleware\HandleCors->handle(Object(Illuminate\Http\Request), Object(Closure))
+#42 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(57): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#43 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\Http\Middleware\TrustProxies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#44 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#45 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#46 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#47 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1168): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#48 /home/tcklikesubnet/public_html/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#49 {main} in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php on line 31
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../symfony/http-foundation/HeaderBag.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ErrorException: include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Http/JsonResponse.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#1 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#2 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#3 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#4 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(956): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Http...')
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(695): Illuminate\Foundation\Exceptions\Handler->prepareJsonResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#11 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/symfony/http-foundation/HeaderUtils.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../symfony/http-foundation/HeaderUtils.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/symfony/http-foundation/InputBag.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../symfony/http-foundation/InputBag.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/symfony/http-foundation/ParameterBag.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../symfony/http-foundation/ParameterBag.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/symfony/http-foundation/ServerBag.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../symfony/http-foundation/ServerBag.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Http/Concerns/CanBePrecognitive.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Fatal error:  During class fetch: Uncaught ErrorException: include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Database/Concerns/BuildsQueries.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#1 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#2 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#3 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#4 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(31): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Data...')
+#5 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#6 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(329): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Data...')
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1581): Illuminate\Database\Connection->query()
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1500): Illuminate\Database\Eloquent\Model->newBaseQueryBuilder()
+#10 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1536): Illuminate\Database\Eloquent\Model->newModelQuery()
+#11 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1489): Illuminate\Database\Eloquent\Model->newQueryWithoutScopes()
+#12 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2339): Illuminate\Database\Eloquent\Model->newQuery()
+#13 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2351): Illuminate\Database\Eloquent\Model->__call('where', Array)
+#14 /home/tcklikesubnet/public_html/app/Http/Controllers/CronJob/StatusOrderServiceController.php(1946): Illuminate\Database\Eloquent\Model::__callStatic('where', Array)
+#15 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App\Http\Controllers\CronJob\StatusOrderServiceController->updateOrders(Object(Illuminate\Http\Request))
+#16 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(260): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\CronJob\StatusOrderServiceController), 'updateOrders')
+#17 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(206): Illuminate\Routing\Route->runController()
+#18 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(806): Illuminate\Routing\Route->run()
+#19 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#20 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#21 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#22 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#23 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(805): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#24 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(784): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#25 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(748): Illuminate\Routing\Router->runRoute(Object(Illuminate\Http\Request), Object(Illuminate\Routing\Route))
+#26 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#27 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#28 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#29 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#30 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#31 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull->handle(Object(Illuminate\Http\Request), Object(Closure))
+#32 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#33 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(50): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#34 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\Foundation\Http\Middleware\TrimStrings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#35 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#36 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#37 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(103): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#38 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance->handle(Object(Illuminate\Http\Request), Object(Closure))
+#39 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(62): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#40 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\Http\Middleware\HandleCors->handle(Object(Illuminate\Http\Request), Object(Closure))
+#41 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(57): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#42 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\Http\Middleware\TrustProxies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#43 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#44 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#45 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#46 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1168): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#47 /home/tcklikesubnet/public_html/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#48 {main} in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php on line 31
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Http/Concerns/CanBePrecognitive.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Trait "Illuminate\Http\Concerns\CanBePrecognitive" not found in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Http/Request.php on line 23
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Fatal error:  During class fetch: Uncaught ErrorException: include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Database/Eloquent/Concerns/QueriesRelationships.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#1 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#2 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#3 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#4 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(32): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Data...')
+#5 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#6 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1571): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Data...')
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1499): Illuminate\Database\Eloquent\Model->newEloquentBuilder(Object(Illuminate\Database\Query\Builder))
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1536): Illuminate\Database\Eloquent\Model->newModelQuery()
+#10 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1489): Illuminate\Database\Eloquent\Model->newQueryWithoutScopes()
+#11 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2339): Illuminate\Database\Eloquent\Model->newQuery()
+#12 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2351): Illuminate\Database\Eloquent\Model->__call('where', Array)
+#13 /home/tcklikesubnet/public_html/app/Helpers.php(26): Illuminate\Database\Eloquent\Model::__callStatic('where', Array)
+#14 /home/tcklikesubnet/public_html/app/Http/Controllers/CronJob/PriceServiceController.php(149): site('is_domain')
+#15 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App\Http\Controllers\CronJob\PriceServiceController->updatePriceService(Object(Illuminate\Http\Request))
+#16 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(260): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\CronJob\PriceServiceController), 'updatePriceServ...')
+#17 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(206): Illuminate\Routing\Route->runController()
+#18 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(806): Illuminate\Routing\Route->run()
+#19 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#20 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#21 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#22 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#23 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(805): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#24 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(784): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#25 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(748): Illuminate\Routing\Router->runRoute(Object(Illuminate\Http\Request), Object(Illuminate\Routing\Route))
+#26 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#27 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#28 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#29 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#30 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#31 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull->handle(Object(Illuminate\Http\Request), Object(Closure))
+#32 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#33 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(50): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#34 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\Foundation\Http\Middleware\TrimStrings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#35 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#36 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#37 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(103): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#38 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance->handle(Object(Illuminate\Http\Request), Object(Closure))
+#39 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(62): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#40 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\Http\Middleware\HandleCors->handle(Object(Illuminate\Http\Request), Object(Closure))
+#41 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(57): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#42 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\Http\Middleware\TrustProxies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#43 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#44 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#45 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#46 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1168): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#47 /home/tcklikesubnet/public_html/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#48 {main} in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php on line 32
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ErrorException: include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Http/JsonResponse.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#1 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#2 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#3 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#4 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(956): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Http...')
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(695): Illuminate\Foundation\Exceptions\Handler->prepareJsonResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#11 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ErrorException: include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Http/JsonResponse.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#1 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#2 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#3 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#4 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(956): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Http...')
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(695): Illuminate\Foundation\Exceptions\Handler->prepareJsonResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#11 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:48:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ErrorException: include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Http/JsonResponse.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#1 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#2 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#3 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#4 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(956): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Http...')
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(695): Illuminate\Foundation\Exceptions\Handler->prepareJsonResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#11 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../symfony/finder/Iterator/FilenameFilterIterator.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../nesbot/carbon/src/Carbon/Traits/Units.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../symfony/finder/Iterator/FilenameFilterIterator.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Fatal error:  During class fetch: Uncaught ErrorException: include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#1 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#2 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#3 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#4 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(27): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Data...')
+#5 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#6 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/DatabaseServiceProvider.php(41): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Data...')
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(857): Illuminate\Database\DatabaseServiceProvider->register()
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\Foundation\Application->register(Object(Illuminate\Database\DatabaseServiceProvider))
+#10 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(832): Illuminate\Foundation\ProviderRepository->load(Array)
+#11 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(36): Illuminate\Foundation\Application->registerConfiguredProviders()
+#12 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(309): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#13 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(186): Illuminate\Foundation\Application->bootstrapWith(Array)
+#14 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\Foundation\Http\Kernel->bootstrap()
+#15 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#16 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1168): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#17 /home/tcklikesubnet/public_html/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#18 {main} in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php on line 27
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../symfony/finder/Iterator/FilenameFilterIterator.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Fatal error:  During class fetch: Uncaught ErrorException: include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Log/ParsesLogConfiguration.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#1 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#2 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#3 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#4 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(28): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Log\\...')
+#5 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#6 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Log/LogServiceProvider.php(16): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Log\\...')
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(900): Illuminate\Log\LogServiceProvider->Illuminate\Log\{closure}(Object(Illuminate\Foundation\Application), Array)
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build(Object(Closure))
+#10 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('log', Array, true)
+#11 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(723): Illuminate\Foundation\Application->resolve('log', Array)
+#12 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1011): Illuminate\Container\Container->make('log', Array)
+#13 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1446): Illuminate\Foundation\Application->make('log')
+#14 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(237): Illuminate\Container\Container->offsetGet('log')
+#15 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(208): Illuminate\Support\Facades\Facade::resolveFacadeInstance('log')
+#16 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(351): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#17 /home/tcklikesubnet/public_html/vendor/spatie/laravel-ignition/src/IgnitionServiceProvider.php(237): Illuminate\Support\Facades\Facade::__callStatic('extend', Array)
+#18 /home/tcklikesubnet/public_html/vendor/spatie/laravel-ignition/src/IgnitionServiceProvider.php(51): Spatie\LaravelIgnition\IgnitionServiceProvider->registerLogHandler()
+#19 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(857): Spatie\LaravelIgnition\IgnitionServiceProvider->register()
+#20 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\Foundation\Application->register(Object(Spatie\LaravelIgnition\IgnitionServiceProvider))
+#21 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(832): Illuminate\Foundation\ProviderRepository->load(Array)
+#22 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(36): Illuminate\Foundation\Application->registerConfiguredProviders()
+#23 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(309): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#24 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(186): Illuminate\Foundation\Application->bootstrapWith(Array)
+#25 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\Foundation\Http\Kernel->bootstrap()
+#26 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#27 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1168): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#28 /home/tcklikesubnet/public_html/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#29 {main} in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php on line 28
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../symfony/http-foundation/HeaderBag.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../nesbot/carbon/src/Carbon/Traits/Units.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../symfony/finder/Iterator/FilenameFilterIterator.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Support/Facades/Facade.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ErrorException: include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#1 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#2 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#3 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(904): ReflectionClass->__construct('Illuminate\\Foun...')
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build('Illuminate\\Foun...')
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Foun...', Array, false)
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('Illuminate\\Foun...', Array, false)
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(900): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#10 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build(Object(Closure))
+#11 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#12 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(723): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#13 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1011): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#14 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(289): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#15 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#16 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#17 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#19 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../symfony/http-foundation/HeaderBag.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Trait "Carbon\Traits\Units" not found in /home/tcklikesubnet/public_html/vendor/nesbot/carbon/src/Carbon/Traits/Date.php on line 848
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Support/Facades/Facade.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/BindingResolutionException.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../symfony/http-foundation/HeaderUtils.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/BindingResolutionException.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../symfony/http-foundation/HeaderUtils.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/BindingResolutionException.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ErrorException: include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#1 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#2 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#3 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(904): ReflectionClass->__construct('Illuminate\\Foun...')
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build('Illuminate\\Foun...')
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Foun...', Array, false)
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('Illuminate\\Foun...', Array, false)
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(900): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#10 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build(Object(Closure))
+#11 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#12 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(723): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#13 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1011): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#14 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(289): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#15 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#16 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#17 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#19 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/BindingResolutionException.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Illuminate\Contracts\Container\BindingResolutionException" not found in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:906
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build('Illuminate\\Foun...')
+#1 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Foun...', Array, false)
+#2 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('Illuminate\\Foun...', Array, false)
+#3 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(900): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build(Object(Closure))
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(723): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1011): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1446): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(497): Illuminate\Container\Container->offsetGet('Illuminate\\Cont...')
+#10 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->reportException(Object(ValueError))
+#11 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1168): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home/tcklikesubnet/public_html/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#13 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 906
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../symfony/http-foundation/InputBag.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/BindingResolutionException.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../symfony/http-foundation/InputBag.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Illuminate\Contracts\Container\BindingResolutionException" not found in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:906
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build('Illuminate\\Foun...')
+#1 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Foun...', Array, false)
+#2 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('Illuminate\\Foun...', Array, false)
+#3 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(900): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build(Object(Closure))
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(723): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1011): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1446): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(497): Illuminate\Container\Container->offsetGet('Illuminate\\Cont...')
+#10 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->reportException(Object(Error))
+#11 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1168): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home/tcklikesubnet/public_html/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#13 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 906
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/BindingResolutionException.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/BindingResolutionException.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../symfony/http-foundation/ServerBag.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/BindingResolutionException.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/BindingResolutionException.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../symfony/http-foundation/ServerBag.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/voku/portable-ascii/src/voku/helper/data/ascii_by_languages.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/voku/portable-ascii/src/voku/helper/ASCII.php on line 1433
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/BindingResolutionException.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Illuminate\Contracts\Container\BindingResolutionException" not found in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:906
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build('Illuminate\\Foun...')
+#1 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Foun...', Array, false)
+#2 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('Illuminate\\Foun...', Array, false)
+#3 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(900): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build(Object(Closure))
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(723): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1011): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1446): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(497): Illuminate\Container\Container->offsetGet('Illuminate\\Cont...')
+#10 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->reportException(Object(ValueError))
+#11 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1168): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home/tcklikesubnet/public_html/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#13 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 906
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Http/Concerns/CanBePrecognitive.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Illuminate\Contracts\Container\BindingResolutionException" not found in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:906
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build('Illuminate\\Foun...')
+#1 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Foun...', Array, false)
+#2 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('Illuminate\\Foun...', Array, false)
+#3 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(900): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build(Object(Closure))
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(723): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1011): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1446): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(497): Illuminate\Container\Container->offsetGet('Illuminate\\Cont...')
+#10 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->reportException(Object(Error))
+#11 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1168): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home/tcklikesubnet/public_html/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#13 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 906
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/voku/portable-ascii/src/voku/helper/data/ascii_by_languages.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/voku/portable-ascii/src/voku/helper/ASCII.php on line 1433
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Illuminate\Contracts\Container\BindingResolutionException" not found in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:906
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build('Illuminate\\Foun...')
+#1 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Foun...', Array, false)
+#2 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('Illuminate\\Foun...', Array, false)
+#3 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(900): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build(Object(Closure))
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(723): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1011): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1446): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(497): Illuminate\Container\Container->offsetGet('Illuminate\\Cont...')
+#10 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->reportException(Object(Error))
+#11 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1168): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home/tcklikesubnet/public_html/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#13 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 906
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Http/Concerns/CanBePrecognitive.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  foreach() argument must be of type array|object, bool given in /home/tcklikesubnet/public_html/vendor/voku/portable-ascii/src/voku/helper/ASCII.php on line 469
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ErrorException: include(/home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#1 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#2 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#3 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(904): ReflectionClass->__construct('Illuminate\\Foun...')
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build('Illuminate\\Foun...')
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Foun...', Array, false)
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('Illuminate\\Foun...', Array, false)
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(900): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#10 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build(Object(Closure))
+#11 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#12 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(723): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#13 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1011): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#14 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(289): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#15 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#16 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#17 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#19 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "-" in /home/tcklikesubnet/public_html/vendor/voku/portable-ascii/src/voku/helper/ASCII.php on line 475
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ErrorException: include(/home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#1 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#2 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#3 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#4 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(956): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Http...')
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(695): Illuminate\Foundation\Exceptions\Handler->prepareJsonResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#11 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../nesbot/carbon/src/Carbon/Traits/IntervalStep.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/tcklikesubnet/public_html/vendor/paragonie/sodium_compat/lib/namespaced.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/paragonie/sodium_compat/autoload.php on line 55
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Trait "Illuminate\Http\Concerns\CanBePrecognitive" not found in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Http/Request.php on line 23
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/tcklikesubnet/public_html/vendor/paragonie/sodium_compat/lib/namespaced.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/paragonie/sodium_compat/autoload.php on line 55
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../nesbot/carbon/src/Carbon/Traits/IntervalStep.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tcklikesubnet/public_html/vendor/paragonie/sodium_compat/lib/namespaced.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/paragonie/sodium_compat/autoload.php:55
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/composer/autoload_real.php(41): require()
+#1 /home/tcklikesubnet/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tcklikesu...')
+#2 /home/tcklikesubnet/public_html/vendor/autoload.php(25): ComposerAutoloaderInitf47d34af6c4cc05a1998fafced55a980::getLoader()
+#3 /home/tcklikesubnet/public_html/public/index.php(13): require('/home/tcklikesu...')
+#4 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/paragonie/sodium_compat/autoload.php on line 55
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tcklikesubnet/public_html/vendor/paragonie/sodium_compat/lib/namespaced.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/paragonie/sodium_compat/autoload.php:55
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/composer/autoload_real.php(41): require()
+#1 /home/tcklikesubnet/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tcklikesu...')
+#2 /home/tcklikesubnet/public_html/vendor/autoload.php(25): ComposerAutoloaderInitf47d34af6c4cc05a1998fafced55a980::getLoader()
+#3 /home/tcklikesubnet/public_html/public/index.php(13): require('/home/tcklikesu...')
+#4 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/paragonie/sodium_compat/autoload.php on line 55
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Trait "Carbon\Traits\IntervalStep" not found in /home/tcklikesubnet/public_html/vendor/nesbot/carbon/src/Carbon/CarbonInterval.php on line 193
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/BindingResolutionException.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/BindingResolutionException.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Illuminate\Contracts\Container\BindingResolutionException" not found in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:906
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build('Illuminate\\Foun...')
+#1 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Foun...', Array, false)
+#2 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('Illuminate\\Foun...', Array, false)
+#3 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(900): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build(Object(Closure))
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(723): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1011): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1446): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(497): Illuminate\Container\Container->offsetGet('Illuminate\\Cont...')
+#10 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->reportException(Object(TypeError))
+#11 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1168): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home/tcklikesubnet/public_html/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#13 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 906
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/tcklikesubnet/public_html/vendor/paragonie/sodium_compat/lib/namespaced.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/paragonie/sodium_compat/autoload.php on line 55
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tcklikesubnet/public_html/vendor/paragonie/sodium_compat/lib/namespaced.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/paragonie/sodium_compat/autoload.php:55
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/composer/autoload_real.php(41): require()
+#1 /home/tcklikesubnet/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tcklikesu...')
+#2 /home/tcklikesubnet/public_html/vendor/autoload.php(25): ComposerAutoloaderInitf47d34af6c4cc05a1998fafced55a980::getLoader()
+#3 /home/tcklikesubnet/public_html/public/index.php(13): require('/home/tcklikesu...')
+#4 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/paragonie/sodium_compat/autoload.php on line 55
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ErrorException: include(/home/tcklikesubnet/public_html/vendor/composer/../laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#1 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/t...', '/home/tcklikesu...', 576)
+#2 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(576): include('/home/tcklikesu...')
+#3 /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/tcklikesu...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#5 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(904): ReflectionClass->__construct('Illuminate\\Foun...')
+#6 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build('Illuminate\\Foun...')
+#7 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Foun...', Array, false)
+#8 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('Illuminate\\Foun...', Array, false)
+#9 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(900): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#10 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->build(Object(Closure))
+#11 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1026): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#12 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(723): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#13 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1011): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#14 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(289): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#15 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#16 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#17 /home/tcklikesubnet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#19 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Warning:  require(/home/tcklikesubnet/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: Permission denied in /home/tcklikesubnet/public_html/vendor/composer/autoload_real.php on line 41
+[15-Aug-2024 18:49:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tcklikesubnet/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tcklikesubnet/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tcklikesubnet/public_html/vendor/composer/autoload_real.php(45): {closure}('0e6d7bf4a5811bf...', '/home/tcklikesu...')
+#1 /home/tcklikesubnet/public_html/vendor/autoload.php(25): ComposerAutoloaderInitf47d34af6c4cc05a1998fafced55a980::getLoader()
+#2 /home/tcklikesubnet/public_html/public/index.php(13): require('/home/tcklikesu...')
+#3 {main}
+  thrown in /home/tcklikesubnet/public_html/vendor/composer/autoload_real.php on line 41
+[15-Aug-2024 20:55:09 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:09 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:09 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:09 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:09 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:09 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:09 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:09 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:09 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:09 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:09 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:10 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:10 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:10 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:11 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:11 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:11 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:11 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:11 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:11 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:12 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:13 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:15 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:16 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:16 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:16 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:17 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 20:55:18 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:40 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:40 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:40 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:40 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:40 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:41 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:41 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 22:28:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/tcklikesubnet/public_html/vendor/composer/platform_check.php on line 24
+[16-Sep-2024 08:33:57 Asia/Ho_Chi_Minh] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in /home/pnmediap/public_html/app/Library/GoogleAuthenticator.php on line 105
+[16-Sep-2024 08:33:57 Asia/Ho_Chi_Minh] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in /home/pnmediap/public_html/app/Library/GoogleAuthenticator.php on line 105

@@ -1,0 +1,21 @@
+{
+    "Invalid username or password": "Tên đăng nhập hoặc mật khẩu không hợp lệ",
+    "Account created successfully": "Tài khoản đã được tạo thành công",
+    "An error occurred while creating your account": "Có lỗi xảy ra khi tạo tài khoản của bạn",
+    "You have been logged out": "Bạn đã đăng xuất",
+    "Your account has been banned": "Tài khoản của bạn đã bị cấm",
+    "Time is up, please try again": "Hết thời gian, vui lòng thử lại",
+    "You have been logged in": "Bạn đã đăng nhập",
+
+    "Please enter the code from your authenticator app": "Vui lòng nhập mã từ ứng dụng xác thực của bạn",
+    "Password has been changed": "Mật khẩu đã được thay đổi",
+    "Current password is invalid": "Mật khẩu hiện tại không hợp lệ",
+    "Two factor authentication has been enabled": "Xác thực hai yếu tố đã được kích hoạt",
+    "Two factor authentication has been disabled": "Xác thực hai yếu tố đã được vô hiệu hóa",
+    "Code is invalid": "Mã không hợp lệ",
+    "API Token is invalid": "Mã API không hợp lệ",
+    "Website config updated": "Cấu hình trang web đã được cập nhật",
+    "User not found": "Không tìm thấy người dùng",
+    "Update user successfully": "Cập nhật người dùng thành công",
+    "Update balance successfully": "Cập nhật số dư thành công"
+}
